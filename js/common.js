@@ -1,7 +1,14 @@
 $(document).ready(function() {
 
+    $(".portfolio_grid").mixItUp();
+
+    $(".section_portfolio li").click(function() {
+        $(".section_portfolio li").removeClass("active");
+        $(this).toggleClass("active");
+    });
+
     $(".top_tittle").animated("fadeInDown","fadeOutUp");
-    $(".animation_photo").animated("bounceIn", "fadeOut");
+    $(".animation_photo").animated("flipInY", "flipOutY");
     $(".animation_left").animated("bounceInLeft", "fadeOut");
     $(".animation_right").animated("bounceInRight","fadeOut");
     $(".top_description, .section_header").animated("fadeInUp","fadeOutDown");
@@ -20,6 +27,8 @@ $(document).ready(function() {
     $(window).resize(function(){
         heightDetect();
     });
+
+    $('.popup').magnificPopup({type:'image'});
 
     $(".toggle_menu").click(function() {
         $(".sandwich").toggleClass("active");
@@ -50,6 +59,7 @@ $(document).ready(function() {
 
     $("a[href*='#']").mPageScroll2id();
 
+    $(function () { $("input,select,textarea").not("[type=submit]").jqBootstrapValidation(); } );
 
 });
 

@@ -86,4 +86,39 @@ section
           background-color: $color
           i
             color: $bg_light
+            
+.resume_left
+  border-color: #dbdbdb
+.section_resume
+  h3
+    color: $color
+
+.resume_year
+  background-color: $color
+  color: $bg_light
+.section_portfolio
+  button
+    background-color: $main_color
+  button.active
+    background-color: $text_color
+  li
+    color: $text_color
+    +kerning(2)
+  li.active
+    color: $bg_light
+.contact_box
+  span
+    color: $color
+    strong
+      color: $main_color
+form
+  input,
+  textarea
+    border: 2px solid $color
+  .submit
+    color: $main_color
+    background-color: $bg_light
+    &:hover
+      background-color: $color
+      color: $bg_light
 
