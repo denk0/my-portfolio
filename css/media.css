@@ -31,6 +31,12 @@
     .toggle_menu{
         left: 75%;
     }
+    .top_wrapper .top_tittle{
+        font-size: 24px;
+    }
+    .top_menu ul{
+        margin-top: 100px;
+    }
 }
 
 /* Custom, iPhone Retina */
