@@ -18,6 +18,12 @@
     .resume_left, .resume_right, .resume_left h3, .resume_right h3{
         text-align: center;
     }
+    form input, form textarea{
+        width: 100%;
+    }
+    form input.submit{
+        margin-left: 25%;
+    }
 }
 
 /* Extra Small Devices, Phones */
