@@ -1,0 +1,83 @@
+body {
+  color: #222;
+  letter-spacing: 1px; }
+
+a {
+  color: #4c1f66; }
+
+p {
+  color: #888; }
+
+.color_element {
+  color: #4c1f66; }
+
+.color_bg {
+  background-color: #4c1f66; }
+
+.color_border {
+  border-color: #4c1f66; }
+
+.bg_dark {
+  background-color: #222;
+  z-index: 10;
+  color: #fafafa; }
+  .bg_dark .section_tittle {
+    color: #fafafa; }
+  .bg_dark .section_description {
+    color: #fafafa; }
+    .bg_dark .section_description::after {
+      background-color: #fafafa; }
+  .bg_dark a {
+    color: #fafafa; }
+
+.bg_light {
+  background-color: #fafafa;
+  z-index: 10; }
+  .bg_light p {
+    color: #222; }
+
+.bg_white {
+  background-color: #fff;
+  z-index: 10; }
+
+svg path {
+  fill: #fafafa; }
+
+.logo_container {
+  background-color: rgba(0, 0, 0, 0.3); }
+
+.toggle_menu {
+  background-color: rgba(0, 0, 0, 0.3); }
+
+.top_menu a {
+  letter-spacing: 5px; }
+
+.top_wrapper .top_tittle {
+  color: #fff;
+  border-color: #fff; }
+.top_wrapper .top_description {
+  color: #fafafa; }
+
+.section_description {
+  letter-spacing: 4px; }
+  .section_description::after {
+    background-color: #222; }
+
+section h3 {
+  letter-spacing: 3px;
+  color: #888; }
+section .another {
+  color: #4c1f66; }
+section .social_wrap li a {
+  border_color: #4c1f66;
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  -ms-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in; }
+  section .social_wrap li a:hover {
+    background-color: #4c1f66; }
+    section .social_wrap li a:hover i {
+      color: #fafafa; }
+
+/*# sourceMappingURL=tomato.css.map */

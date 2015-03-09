@@ -1,0 +1,89 @@
+@import "../bourbon/bourbon"
+
+$color: #4c1f66
+//Theme skin
+$text_color: #888
+$main_color: #222
+$bg_light: #fafafa
+$bg_white: #fff
+
+@mixin kerning($kerning)
+  letter-spacing: $kerning + px
+
+body
+  color: $main_color
+  +kerning(1)
+
+a
+  color: $color
+
+p
+  color: $text_color
+
+.color_element
+  color: $color
+.color_bg
+  background-color: $color
+.color_border
+  border-color: $color
+
+.bg_dark
+  background-color: $main_color
+  z-index: 10
+  .section_tittle
+    color: $bg_light
+  .section_description
+    color: $bg_light
+    &::after
+      background-color: $bg_light
+  color: $bg_light
+  a
+    color: $bg_light
+.bg_light
+  background-color: $bg_light
+  z-index: 10
+  p
+    color: $main_color
+.bg_white
+  background-color: $bg_white
+  z-index: 10
+svg
+  path
+    fill: $bg_light
+.logo_container
+  background-color: rgba(0,0,0,.3)
+.toggle_menu
+  background-color: rgba(0,0,0,.3)
+.top_menu
+  a
+    +kerning(5)
+.top_wrapper
+  .top_tittle
+    color: $bg_white
+    border-color: $bg_white
+  .top_description
+    color: $bg_light
+.section_description
+  +kerning(4)
+  &::after
+    background-color: $main_color
+section
+  h3
+    +kerning(3)
+    color: $text_color
+  .another
+    color: $color
+  .social_wrap
+    li
+      a
+        border_color: $color
+        -webkit-transition: all .2s ease-in
+        -moz-transition: all .2s ease-in
+        -ms-transition: all .2s ease-in
+        -o-transition: all .2s ease-in
+        transition: all .2s ease-in
+        &:hover
+          background-color: $color
+          i
+            color: $bg_light
+
