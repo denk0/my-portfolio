@@ -55,7 +55,7 @@ section,
   position: fixed;
   top: 20px;
   border-radius: 5px;
-  left: 30px; }
+  left: 3%; }
   .logo_container img {
     height: 60px;
     width: 60px;
@@ -66,7 +66,7 @@ section,
   height: 60px;
   float: right;
   position: fixed;
-  right: 30px;
+  left: 93%;
   top: 20px;
   z-index: 1000;
   border: none;
