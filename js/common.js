@@ -2,8 +2,8 @@ $(document).ready(function() {
 
     $(".top_tittle").animated("fadeInDown","fadeOutUp");
     $(".animation_photo").animated("bounceIn", "fadeOut");
-    $(".animation_left").animated("bounceInLeft", "fadeOutLeft");
-    $(".animation_right").animated("bounceInRight","fadeOutRight");
+    $(".animation_left").animated("bounceInLeft", "fadeOut");
+    $(".animation_right").animated("bounceInRight","fadeOut");
     $(".top_description, .section_header").animated("fadeInUp","fadeOutDown");
     $(".social_wrap a").hover(
         function(){
