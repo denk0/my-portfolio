@@ -28,10 +28,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.81100917" vertical-offset="2380" max-vertical-offset="5372">
-              <caret line="152" column="102" selection-start-line="152" selection-start-column="102" selection-end-line="152" selection-end-column="102" />
-              <caret line="159" column="102" selection-start-line="159" selection-start-column="102" selection-end-line="159" selection-end-column="102" />
-              <caret line="166" column="102" selection-start-line="166" selection-start-column="102" selection-end-line="166" selection-end-column="102" />
+            <state vertical-scroll-proportion="0.65504587" vertical-offset="2380" max-vertical-offset="5372">
+              <caret line="161" column="81" selection-start-line="161" selection-start-column="81" selection-end-line="161" selection-end-column="81" />
               <folding />
             </state>
           </provider>
@@ -471,10 +469,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.81100917" vertical-offset="2380" max-vertical-offset="5372">
-          <caret line="152" column="102" selection-start-line="152" selection-start-column="102" selection-end-line="152" selection-end-column="102" />
-          <caret line="159" column="102" selection-start-line="159" selection-start-column="102" selection-end-line="159" selection-end-column="102" />
-          <caret line="166" column="102" selection-start-line="166" selection-start-column="102" selection-end-line="166" selection-end-column="102" />
+        <state vertical-scroll-proportion="0.65504587" vertical-offset="2380" max-vertical-offset="5372">
+          <caret line="161" column="81" selection-start-line="161" selection-start-column="81" selection-end-line="161" selection-end-column="81" />
           <folding />
         </state>
       </provider>
